@@ -4,8 +4,11 @@ module.exports = {
     configs: {
         recommended: {
             globals: {
+                act: false,
                 fixture: false,
-                test: false
+                only: false,
+                test: false,
+                wait: false
             }
         }
     }
